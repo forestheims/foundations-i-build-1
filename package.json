@@ -1,0 +1,32 @@
+{
+  "name": "foundations-i-build-1",
+  "version": "1.0.0",
+  "description": "Foundations I - Build #1",
+  "main": "app.js",
+  "directories": {
+    "test": "cypress"
+  },
+  "scripts": {
+    "start": "http-server -p 5500",
+    "test": "cypress open",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alchemycodelab/foundations-i-build-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alchemycodelab/foundations-i-build-1/issues"
+  },
+  "homepage": "https://github.com/alchemycodelab/foundations-i-build-1#readme",
+  "devDependencies": {
+    "cypress": "^8.4.1",
+    "eslint-plugin-cypress": "^2.12.1"
+  },
+  "dependencies": {
+    "http-server": "^13.0.2"
+  }
+}
