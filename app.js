@@ -1,4 +1,6 @@
 // import functions and grab DOM elements
+const button = document.getElementById('generate');
+const paragraph = document.getElementById('random-num');
 
 // initialize global state
 
